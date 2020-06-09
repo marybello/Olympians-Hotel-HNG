@@ -2,5 +2,33 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+    footer {
+        display: flex;
+        padding: 30px;
+        background-color: #fffacd;
+    }
+
+    footer div {
+        width: 30%;
+        margin: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    footer input[type='text'] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        box-shadow: 2px 2px 3px hsl(0, 0%, 50%);
+    }
+
+    @media (max-width:480px) {
+        footer div {
+            width: 100% !important;
+        }
+    }
 
 /*# sourceMappingURL=styles.css.map */
